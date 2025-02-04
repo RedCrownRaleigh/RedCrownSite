@@ -1,0 +1,35 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  transform: skewX(0deg) skewY(0deg);
+  transition-property: all;
+  transition-duration: 1s;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 1s;
+}
+.img {
+  object-fit: scale-down;
+  width: auto;
+  height: auto;
+  object-position: left 12%;
+  align-self: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+}
+.img > picture > img {
+  object-fit: scale-down;
+  object-position: left 12%;
+}
+.img_50Opaque {
+  opacity: 0.5;
+}
+.imgsmallLogo {
+  max-width: 50px;
+}
