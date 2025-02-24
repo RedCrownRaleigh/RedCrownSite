@@ -558,7 +558,7 @@ function PlasmicLinks__RenderFunc(props: {
                                   }
                                   style={{ color: "#E5F732", fontWeight: 800 }}
                                 >
-                                  {"8/31"}
+                                  {"4/25"}
                                 </span>
                               </React.Fragment>
                             </h6>
@@ -573,10 +573,10 @@ function PlasmicLinks__RenderFunc(props: {
                   className={classNames("__wab_instance", sty.button__ltwBu)}
                   href={
                     hasVariant(globalVariants, "screen", "smallMobile")
-                      ? "https://www.etix.com/ticket/p/73949774/kpop-bash-with-dj-rusty-charlotte-amossouthend"
+                      ? "https://app.opendate.io/e/weebs-n-wubz-april-25-2025-572726"
                       : hasVariant(globalVariants, "screen", "mobileOnly")
                       ? "https://www.etix.com/ticket/p/73949774/kpop-bash-with-dj-rusty-charlotte-amossouthend"
-                      : "https://www.etix.com/ticket/p/73949774/kpop-bash-with-dj-rusty-charlotte-amossouthend"
+                      : "https://app.opendate.io/e/weebs-n-wubz-april-25-2025-572726"
                   }
                   shape={"round"}
                   size={"large"}
@@ -594,8 +594,8 @@ function PlasmicLinks__RenderFunc(props: {
                       )}
                     >
                       {hasVariant(globalVariants, "screen", "smallMobile")
-                        ? "K-Pop Bash Charlotte"
-                        : "K-Pop Bash Charlotte"}
+                        ? "Weebz n Wubz Durham"
+                        : "Weebz n Wubz Durham"}
                     </div>
                   </div>
                 </AntdButton>
@@ -709,8 +709,8 @@ function PlasmicLinks__RenderFunc(props: {
                   className={classNames("__wab_instance", sty.button__yDNlC)}
                   href={
                     hasVariant(globalVariants, "screen", "smallMobile")
-                      ? `/`
-                      : `/`
+                      ? `/home-page`
+                      : `/home-page`
                   }
                   shape={"round"}
                   size={"large"}

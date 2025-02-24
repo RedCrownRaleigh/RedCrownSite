@@ -573,7 +573,7 @@ function PlasmicLinksArchive__RenderFunc(props: {
             <div className={classNames(projectcss.all, sty.freeBox__miNx9)}>
               <AntdButton
                 className={classNames("__wab_instance", sty.button__k6Yp)}
-                href={`/`}
+                href={`/home-page`}
                 shape={"round"}
                 size={"large"}
                 type={"default"}

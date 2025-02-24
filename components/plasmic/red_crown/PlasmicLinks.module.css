@@ -428,9 +428,9 @@
 .frame11 {
   width: auto;
   height: auto;
+  display: flex;
   position: relative;
   flex-direction: row;
-  display: none;
 }
 .frame11 > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -503,6 +503,7 @@
 }
 .h6__nBozZ {
   text-align: center;
+  padding-right: 0px;
 }
 .button__ltwBu:global(.__wab_instance) {
   max-width: 100%;

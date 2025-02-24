@@ -256,7 +256,7 @@ function PlasmicPageHeader__RenderFunc(props: {
 
                 $steps["goToHomePage"] = true
                   ? (() => {
-                      const actionArgs = { destination: `/` };
+                      const actionArgs = { destination: `/home-page` };
                       return (({ destination }) => {
                         if (
                           typeof destination === "string" &&

@@ -192,7 +192,7 @@ function PlasmicNavBar__RenderFunc(props: {
 
                 $steps["goToHomePage"] = true
                   ? (() => {
-                      const actionArgs = { destination: `/` };
+                      const actionArgs = { destination: `/home-page` };
                       return (({ destination }) => {
                         if (
                           typeof destination === "string" &&
@@ -242,7 +242,7 @@ function PlasmicNavBar__RenderFunc(props: {
 
                 $steps["goToHomePage"] = true
                   ? (() => {
-                      const actionArgs = { destination: `/` };
+                      const actionArgs = { destination: `/home-page` };
                       return (({ destination }) => {
                         if (
                           typeof destination === "string" &&
