@@ -605,8 +605,8 @@ function PlasmicLinks__RenderFunc(props: {
                   className={classNames("__wab_instance", sty.button__mq3R3)}
                   href={
                     hasVariant(globalVariants, "screen", "smallMobile")
-                      ? "https://forms.gle/ZMKX3fYo2D1RkcnG6"
-                      : "https://forms.gle/ZMKX3fYo2D1RkcnG6"
+                      ? "https://forms.gle/1hXEWca5naVs6y4G9"
+                      : "https://forms.gle/1hXEWca5naVs6y4G9"
                   }
                   shape={"round"}
                   size={"large"}
